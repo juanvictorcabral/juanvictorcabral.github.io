@@ -6,7 +6,7 @@
 }
 
 :root {
-  --color-primary: #4762ff;
+  --color-primary: #f86932;
   --color-secondary: #ff6363;
   --color-tertiary: #ac1de1;
   --color-gradient-start: #4762ff;
@@ -85,7 +85,7 @@ h6 {
 
 .main-header .social-icon:not([class*=scheme-]) a,
 .main-nav > li > a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .main-header .social-icon:not([class*=scheme-]) a:hover,
@@ -103,7 +103,7 @@ h6 {
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
 .main-nav > li > a:hover {
-  color: #fff;
+  color: #000;
 }
 
 .nav-light .main-nav > li > a {

@@ -82,7 +82,7 @@
 		|- 4.4. Text Block
 
 	6. PARTIALS
-		|- 6.1. Search Results 
+		|- 6.1. Search Results
 		|- 6.2. 404 Not Found
 		|- 6.3. Sidebar
 		|- 6.4. Page Frame
@@ -501,7 +501,7 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 .lqd-lang-module img { width: 18px; }
 .lqd-lang-module img + span { margin-left: 0.6em; }
 
-.navbar-brand { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; height: auto; padding: 30px 0; line-height: normal; float: none; -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; -ms-flex-negative: 0; flex-shrink: 0; -webkit-transition: none; transition: none; }
+.navbar-brand { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; height: auto; padding: 22px 0; line-height: normal; float: none; -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; -ms-flex-negative: 0; flex-shrink: 0; -webkit-transition: none; transition: none; }
 .navbar-brand img { -webkit-transition: opacity 0.3s, visibiliy 0.3s; transition: opacity 0.3s, visibiliy 0.3s; }
 .navbar-brand .logo-sticky { display: none; }
 .navbar-brand .logo-light, .navbar-brand .logo-dark { position: absolute; top: 0; left: 0; opacity: 0; visibility: hidden; }
@@ -597,7 +597,7 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 @keyframes stickySlideDown { from { -webkit-transform: translateY(-100%); transform: translateY(-100%); }
   to { -webkit-transform: translateY(0); transform: translateY(0); } }
 .is-stuck { -webkit-animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both; animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both; }
-.is-stuck .navbar-brand { padding-top: 18px; padding-bottom: 18px; }
+.is-stuck .navbar-brand { padding-top: 22px; padding-bottom: 22px; }
 .is-stuck.mainbar-wrap { padding-top: 0 !important; padding-bottom: 0 !important; }
 .is-stuck > .megamenu-hover-bg { display: none !important; }
 
@@ -1265,6 +1265,8 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 .iconbox-color-pippin .iconbox-icon-container { color: #fd623c; background-color: #ffe4df; }
 
 .iconbox-color-apple .iconbox-icon-container { color: #46d664; background-color: #cdf2d6; }
+
+.iconbox-color-link-water .iconbox-icon-container { color: #4c93dc; background-color: #DCE9F6; }
 
 .compose-mode [data-animate-icon=true] .iconbox-icon-container > svg, .compose-mode [data-animate-icon=true] .iconbox-icon-container > object { opacity: 1; }
 
@@ -5927,6 +5929,10 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
 .bg-cape-cod { background: #343535 !important; }
 
 .bg-zircon { background: #f8faff !important; }
+
+.bg-custom-01 { background: #F9A07C !important; }
+
+.bg-custom-02 { background: #86A6A6 !important; }
 
 .bg-fade-dark-005 { background-color: rgba(0, 0, 0, 0.05) !important; }
 
