@@ -1,8 +1,8 @@
 <?php
 if($_POST)
 {
-	$to_email = "juan@upprooms.com"; //Recipient email, Replace with own email here
-	$subject  = "An email from my website contact form";
+	$to_email = "juan@verifood.com.br"; //Recipient email, Replace with own email here
+	$subject  = "Form no website";
 
 	//check if its an ajax request, exit if not
 	if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
@@ -20,11 +20,11 @@ if($_POST)
 
 	//additional php validation
 	if(strlen($user_name) < 2){ // If length is less than 4 it will output JSON error.
-		$output = json_encode(array('type'=>'error', 'text' => 'Name is too short or empty!'));
+		$output = json_encode(array('type'=>'error', 'text' => 'Nome é muito pequeno!'));
 		die($output);
 	}
 	if(!filter_var($user_email, FILTER_VALIDATE_EMAIL)){ //email validation
-		$output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
+		$output = json_encode(array('type'=>'error', 'text' => 'Por favor coloque um email válido!'));
 		die($output);
 	}
 	// if(strlen($message)<3){ //check emtpy message
@@ -48,7 +48,7 @@ if($_POST)
 		$output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
 		die($output);
 	}else{
-		$output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .' Thank you for your email'));
+		$output = json_encode(array('type'=>'message', 'text' => 'Olá '.$user_name .' Entraremos em contato em breve :)'));
 		die($output);
 	}
 }
