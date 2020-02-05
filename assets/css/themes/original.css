@@ -1,12 +1,19 @@
 @font-face {
-  font-family: 'Cerebri Sans';
-  src: url("../../fonts/cerebri-sans.woff2") format("woff2"), url("../../fonts/cerebri-sans.woff") format("woff");
+  font-family: 'Proxima Nova';
+  src: url("../../fonts/proxima-nova.otf") format("otf");
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../../fonts/proxima-nova-bold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 :root {
-  --color-primary: #f86932;
+  --color-primary: #62B134;
   --color-secondary: #ff6363;
   --color-tertiary: #ac1de1;
   --color-gradient-start: #4762ff;
@@ -18,7 +25,7 @@
 }
 
 body {
-  font-family: 'Cerebri Sans', sans-serif;
+  font-family: 'Proxima Nova';
   font-size: 16px;
   line-height: 1.9em;
   color: #828282;
@@ -30,7 +37,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6 .h6 {
-  font-family: 'neuzeit-grotesk', 'sans-serif';
+  font-family: 'Proxima Nova';
   color: #060221;
 }
 

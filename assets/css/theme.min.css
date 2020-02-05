@@ -99,10 +99,10 @@
 /* 1. BASE
 */
 /* 1.1. Base */
-:root { --color-font: #808291; --color-primary: #3ed2a7; --color-secondary: #ffb09f; --color-link: #a7a9b8; --color-link-hover: #181b31; --color-gradient-start: #4fda91; --color-gradient-stop: #34dbc5; --color-img-holder: #efefef; }
+:root { --color-font: #808291; --color-primary: #62B134; --color-secondary: #ffb09f; --color-link: #62B134; --color-link-hover: #181b31; --color-gradient-start: #4fda91; --color-gradient-stop: #34dbc5; --color-img-holder: #efefef; }
 
-@font-face { font-family: 'Glacial Indifference'; src: url("../fonts/GlacialIndifference-Regular.woff2") format("woff2"), url("../fonts/GlacialIndifference-Regular.woff") format("woff"); font-weight: normal; font-display: swap; font-style: normal; }
-@font-face { font-family: 'Glacial Indifference'; src: url("../fonts/GlacialIndifference-Bold.woff2") format("woff2"), url("../fonts/GlacialIndifference-Bold.woff") format("woff"); font-weight: bold; font-display: swap; font-style: normal; }
+@font-face { font-family: 'Proxima Nova'; src: url("../fonts/proxima-nova.otf") format("otf"); font-weight: normal; font-display: swap; font-style: normal; }
+@font-face { font-family: 'Proxima Nova'; src: url("../fonts/proxima-nova-bold.otf") format("otf"); font-weight: bold; font-display: swap; font-style: normal; }
 html, body { max-width: 100vw; overflow-x: hidden; }
 
 html { font-size: 100%; overflow-x: hidden; }
@@ -5908,7 +5908,11 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
 
 .bg-charade { background: #2D323D !important; }
 
+.bg-footer { background: #3C3C3C !important; }
+
 .bg-tundora { background: #40383C !important; }
+
+.bg-banner { background: #EFEFEF !important; }
 
 .bg-shark { background: #27282a !important; }
 
